@@ -1,0 +1,39 @@
+# 编译产物
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地配置（含数据库密码，绝对不要提交）
+application-local.yml
+application-local.properties
+application-dev-local.yml
+
+# 日志与临时文件
+*.log
+logs/
+*.tmp
+*.bak
+
+# 上传的文件（课件等，不入库）
+uploads/
+data/uploads/
